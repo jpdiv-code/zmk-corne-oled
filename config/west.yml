@@ -15,7 +15,7 @@ manifest:
       import: app/west.yml
     - name: zmk-nice-oled
       remote: jpdiv-code
-      revision: 4a65147937693f93c735114b3eb514dd85d5e4d4
+      revision: ac819fb9170fc85d55992927c8935b9d85d14f24
     - name: zmk-board-eyelash
       remote: eyelash
       revision: main
