@@ -21,7 +21,7 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
