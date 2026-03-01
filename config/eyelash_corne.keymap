@@ -93,7 +93,7 @@
             display-name = "NAV/NUM";
             bindings = <
 &kp GRAVE  &kp N1        &kp N2       &kp N3        &kp N4         &kp N5                                         &mmv MOVE_UP                     &kp N6     &kp N7         &kp N8        &kp N9       &kp N0           &kp DEL
-&trans     &kp LGUI      &kp LALT     &kp LCTRL     &kp LSHFT      &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT    &kp HOME         &kp PG_UP
+&trans     &kp LGUI      &kp LALT     &kp LCTRL     &kp LSHFT      &none                          &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT    &kp HOME         &kp PG_UP
 &trans     &mkp LCLK     &mkp RCLK    &none         &none          &none          &kp C_MUTE                       &mmv MOVE_DOWN                   &kp INS    &kp END        &none         &none        &none            &kp PG_DN
                                       &trans        &trans         &trans                                                                           &trans     &mo 3          &trans
             >;
@@ -105,7 +105,7 @@
             display-name = "SYMBOL";
             bindings = <
 &kp TILDE  &kp EXCL      &kp AT       &kp HASH      &kp DLLR       &kp PRCNT                                      &mmv MOVE_UP                     &kp CARET  &kp AMPS       &kp ASTRK     &kp LPAR     &kp RPAR         &kp BSPC
-&trans     &kp LGUI      &kp LALT     &kp LCTRL     &kp LSHFT      &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp LBKT      &kp RBKT     &kp BSLH         &kp GRAVE
+&trans     &kp LGUI      &kp LALT     &kp LCTRL     &kp LSHFT      &none                          &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp LBKT      &kp RBKT     &kp BSLH         &kp GRAVE
 &trans     &mkp LCLK     &mkp RCLK    &none         &none          &none          &trans                           &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp LBRC      &kp RBRC     &kp PIPE         &kp TILDE
                                       &trans        &mo 3          &trans                                                                           &trans     &trans         &trans
             >;
@@ -117,7 +117,7 @@
             display-name = "Fn/SYS";
             bindings = <
 &studio_unlock  &kp F1          &kp F2          &kp F3        &kp F4         &kp F5                                      &mmv MOVE_UP                     &kp F6        &kp F7         &kp F8        &kp F9       &kp F10          &kp F11
-&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader   &none          &none         &none        &kp PRINTSCREEN  &kp F12
+&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &bootloader   &none          &none         &none        &kp PRINTSCREEN  &kp F12
 &trans          &sys_reset      &rgb_ug RGB_OFF &rgb_ug RGB_ON &none          &rgb_ug RGB_EFF  &kp C_MUTE                 &mmv MOVE_DOWN                   &none         &none          &bootloader   &sys_reset   &kp SCROLLLOCK   &kp PAUSE_BREAK
                                                 &trans        &trans         &trans                                                                        &trans        &trans         &trans
             >;
